@@ -2,9 +2,13 @@ module.exports = {
   contarPalabras
 }
 
-function contarPalabras(cadena){
+function contarAes(cadena){
   let arrayc = cadena.split("");
   let arrayA = arrayc.filter(e => e=="a");
   console.log(arrayA.length);
 }
-contarPalabras(process.argv[2]);
+
+function contarPalabras(cadena){
+  let palabras = cadena.split(" ");
+  return palabras.length;
+}

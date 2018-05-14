@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tirarDados": "node dados.js",
-    "contarPalabras": "node palabras.js"
+    "contarPalabras": "node palabras.js",
+    "contarFichero": "node contadorFichero.js",
+    "promesa": "node promesa.js"
   },
   "author": "",
   "license": "ISC"
